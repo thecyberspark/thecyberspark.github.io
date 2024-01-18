@@ -12,10 +12,7 @@ This course is for the Interns, which are new to the `cs-ui-app project` and sta
 
 <div>
 :::tip[Info]
-
-<b>Credentials for Udemy:</b> <br />
-<b>Email:</b> sameerbhat76@gmail.com <br />
-<b> Password:</b> Bhat123@
+The cyberspark-training Slack section contains a link to the shared credentials. Please refer to it for access.
 :::
 
 </div>

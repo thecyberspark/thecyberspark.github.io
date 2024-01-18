@@ -38,4 +38,11 @@ Not using SSH:
 $ GIT_USER=<Your GitHub username> DEPLOYMENT_BRANCH=gh-page yarn deploy
 ```
 
+For windows:
+
+```
+cmd /C "set GIT_USER=Musharraffaijaz&set DEPLOYMENT_BRANCH=gh-page&yarn deploy"
+
+```
+
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
