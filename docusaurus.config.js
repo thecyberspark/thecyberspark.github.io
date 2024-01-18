@@ -9,20 +9,19 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Cyber Spark',
-  tagline: 'A documentation for all the cs-ui-apps',
+  tagline: 'Documentation for all the cs-ui-apps',
   favicon: 'img/cyber-spark.png',
 
   // Set the production url of your site here
-  url: 'https://github.com',
+  url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/zf/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'thecyberspark', // Usually your GitHub org/user name.
-  projectName: 'thecyberspark.github.io', // Usually your repo name.
-  deploymentBranch: 'gh-pages',
+  organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -44,8 +43,8 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -128,14 +127,10 @@ const config = {
                 label: 'GitLab',
                 href: 'https://github.com/facebook/docusaurus',
               },
-              {
-                label: 'Youtube',
-                href: 'https://github.com/facebook/docusaurus',
-              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} ZF Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} CyberSpark® IT Services LTD.`,
       },
       prism: {
         theme: prismThemes.github,

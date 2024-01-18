@@ -1,29 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&display=swap');*{
   font-family: 'poppins';
 }
-/* width */
+
+/* WebKit (Chrome, Safari) */
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 6px; /* width of the scrollbar */
 }
 
-/* Track */
-::-webkit-scrollbar-track {
-  /* background: transparent; */
-  display: none;
-}
-
-/* Handle */
 ::-webkit-scrollbar-thumb {
-  /* background: #cbcbcb;
-  border-radius: 50px; */
-  display: none;
+  background-color: rgb(220, 220, 220); /* color of the thumb */
+  border-radius: 6px; /* roundness of the thumb */
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #8b8b8b;
+::-webkit-scrollbar-track {
+  background-color: transparent; /* color of the track */
 }
+
+/* Firefox */
+/* Note: This only works in Firefox 64 and later versions */
+
+
 
 .features {
   display: flex;

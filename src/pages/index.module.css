@@ -4,6 +4,10 @@
  */
 
 .heroBanner {
+  background-image: url('../../static/img/banner-1.png');
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: cover;
   padding: 4rem 0;
   text-align: center;
   position: relative;
