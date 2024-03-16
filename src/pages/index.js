@@ -26,8 +26,6 @@ function HomepageHeader() {
                     </Link>
                     <Link className="button button--danger button--lg"  onClick={()=>{
                         setIsLoggedIn(false)
-
-
                     }}>
                         Logout
                     </Link>

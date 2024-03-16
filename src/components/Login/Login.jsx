@@ -1,7 +1,8 @@
 // src/pages/LoginPage.js or another relevant file
 import React, {useState} from 'react';
-import { useAuth , } from '../../contexts/AuthContext';
+import {useAuth,} from '../../contexts/AuthContext';
 import './login.css';
+
 const LoginPage = () => {
   const { isLoggedIn, setIsLoggedIn } = useAuth();
 
