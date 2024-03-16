@@ -6,6 +6,7 @@ slug: /basic-courses
 
 # Basic Courses
 
+<div style={{textAlign: 'justify'}}>
 This course is for the Interns, which are new to the `cs-ui-app project`
 
 This course is for the Interns, which are new to the `cs-ui-app project` and starting to contribute to the project. These courses will provide you with the foundation you need to get involved. With Advanced CSS/SCSS to Angular and Spring Boot.
@@ -80,6 +81,7 @@ The cyberspark-training Slack section contains a link to the shared credentials.
     <br />
   </div>
 </details>
+</div>
 
 export const AngularCourse = () => (
 

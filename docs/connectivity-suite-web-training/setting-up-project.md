@@ -2,17 +2,14 @@
 sidebar_position: 3
 sidebar_label: Setting up the project
 slug: /setting-up-the-project
+description: This Guid will cover all the details about setting up the project locally in IntelliJ.
 ---
 
 # 02. Setting up IntelliJ, codebase and necessary plugins
 
+<!-- <div style={{textAlign: 'justify'}}> -->
+
 Before starting, clone cs-ui-app from the GitLab to the local machine
-
-<aside>
-
->
-
-</aside>
 
 :::tip[Repository Link]
 💡 Before starting, clone **cs-ui-app** from the **GitLab** to the local machine. <br/>
@@ -162,10 +159,11 @@ There are 2 types of modes, in which each app can run.
 
   </div>
 </details>
+<!-- </div> -->
 
 export const YoutubeEmbed = () => (
 
   <div style={{width: '100%', height:'100%'}}>
-<iframe width="870" height="400" src="https://www.youtube.com/embed/gys_aEdmBQk?si=sg9f_nQewTH-eEOL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="870" height="400" src="https://www.youtube.com/embed/TB_SzSRwZT4?si=ZVKilcaf4iWR19X6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
 );
