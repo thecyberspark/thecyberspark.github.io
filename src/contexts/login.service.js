@@ -1,6 +1,6 @@
 import store from 'store';
 
-const loggedInKey = 'isLoggedIn';
+const loggedInKey = 'session-cookie-encrypted';
 
 export class LoginService {
     constructor() {}
