@@ -2,17 +2,14 @@
 sidebar_position: 3
 sidebar_label: Setting up the project
 slug: /setting-up-the-project
+description: This Guid will cover all the details about setting up the project locally in IntelliJ.
 ---
 
 # 02. Setting up IntelliJ, codebase and necessary plugins
 
+<!-- <div style={{textAlign: 'justify'}}> -->
+
 Before starting, clone cs-ui-app from the GitLab to the local machine
-
-<aside>
-
->
-
-</aside>
 
 :::tip[Repository Link]
 💡 Before starting, clone **cs-ui-app** from the **GitLab** to the local machine. <br/>
@@ -37,30 +34,31 @@ Before starting, clone cs-ui-app from the GitLab to the local machine
 
 1. After going to **_GitLab_**, copy the URL and clone the repository to the local Machine. Refer **_Fig 1.0_**
 
+   ![External image](../../static/img/ss1.png)
    **_Figure 1.0_**
 
 2. Open your IntelliJ IDE, click **_get from VCS_** and then paste your URL to clone the repository. **_Refer Fig 1.20_**
-
+   ![External image](../../static/img/ss2.png)
    **_Figure 1.20_**
 
 3. After pasting the **_repository URL_**, your IDE will briefly prompt you for **_authorization_**. This is a **_one-time_** setup to establish your connection with the remote repository and grant access. Once you enter your credentials and complete authorization, the cloning process will begin automatically. A new window will then appear showcasing the downloaded files and folders, ready for you to explore and start working on. **_Refer Fig 1.30 & 1.31_**
-
+   ![External image](../../static/img/ss3.png)
    **_Figure 1.30_**
-
+   ![External image](../../static/img/ss4.png)
    **_Figure 1.31_**
 
 4. Once you are inside the IDE, look for the **_Project Structure_** `***File > Project Structure`.**_ Click it and a new window will appear. _**Refer Fig 1.40, 1,41\*\*\*
-
+   ![External image](../../static/img/ss5.png)
    **_Figure 1.40_**
-
+   ![External image](../../static/img/ss6.png)
    **_Figure 1.41_**
 
 5. Once the new window appears, go to **_Modules_**, and search for a **_+_** icon to add a **_New Module. In this section, search for "Languages" within the module catalog, select "JavaScript", and finally click the "Create" button._** This will establish a fresh JavaScript module for your project. **_Refer Fig 1.50_**
-
+   ![External image](../../static/img/ss14.png)
    **_Figure 1.50_**
 
 6. After the above step, the IntelliJ IDE will start indexing and as the indexing is over you will see the following window, where the `**apps`** and `**libs**`are present. \***Refer Fig 1.60\*\*\*
-
+   ![External image](../../static/img/ss7.png)
    **_Figure 1.60_**
 
 7. With the indexing completed and all folders readily accessible, you might encounter a few node dependencies needing installation. To tackle this, simply head over to your terminal and reference the provided code snippet within the documentation. With a quick execution, you'll be equipped with the necessary dependencies to proceed further.
@@ -69,22 +67,23 @@ Before starting, clone cs-ui-app from the GitLab to the local machine
    npm install or npm i or yarn install //to install all the node dependencies
    ```
 
+   ![External image](../../static/img/ss8.png)
    **_The Terminal icon can be easily accessed from the taskbar at the bottom of your screen_**
 
 8. Now as all the **_configurations_** and **_dependencies_** are installed, we need to install a couple of `***plugins*`** as well. These plugins are quiet important as they help developers to keep their code clean, organized, and easy to read. \***Refer the Fig 1.80, 1.81 below.\*\*\*
-
+   ![External image](../../static/img/ss9.png)
    **_Figure 1.80_**
-
+   ![External image](../../static/img/ss10.png)
    **_Figure 1.81_**
 
 9. As you have installed the plugin, go to **_Settings > Plugins_** and search for prettier, and then **_refer Fig 1.91_** and then follow the above settings.
-
+   ![External image](../../static/img/ss11.png)
    **_Figure 1.90_**
-
+   ![External image](../../static/img/ss12.png)
    **_Figure 1.91_**
 
 10. After installing prettier, you need to install **_Nx Console Idea as well. Refer Fig 1.10_**
-
+![External image](../../static/img/ss13.png)
 <aside>
 >💡 Initially, you may not see the "apps" and "libs" folders mentioned in #01. This is because some configurations are needed to set them up and enable the full functionality of the system.
 
@@ -120,8 +119,8 @@ Before starting, clone cs-ui-app from the GitLab to the local machine
 
 ## Run Apps Locally
 
-1. Running apps locally is a breeze thanks to the dedicated `**.run**` folder. This folder aggregates all apps available on the master branch, providing easy access for experimentation. As illustrated in **_Figure 2.0_**, a simple click on the dropdown reveals a list of readily compilable apps. Select any app, and your IDE takes care of the magic, generating a local **_URL_** for instant testing and exploration.
-
+1. Running apps locally is a breeze thanks to the dedicated **`run`** folder. This folder aggregates all apps available on the master branch, providing easy access for experimentation. As illustrated in **_Figure 2.0_**, a simple click on the dropdown reveals a list of readily compilable apps. Select any app, and your IDE takes care of the magic, generating a local **_URL_** for instant testing and exploration.
+   ![External image](../../static/img/rr1.png)
    **_Figure 2.0_**
 
 :::note[Note]
@@ -154,15 +153,17 @@ There are 2 types of modes, in which each app can run.
 2.  **Mock Mode:** Doesn’t need backend to run, as there’s is a lot of data which needs to be fetched from the backend, but if the backend is not available, we create a virtual backend that serves up dummy data, mimicking real-world interactions, all within the app itself.
 
 📒 To **_activate Mock Mode_**, head to your app's `**environment.ts**` file and set `**isMockEnabled`** to `**true\*\*`. Boom! You're now cruising in offline mode, ready to test and iterate without external dependencies.
+![External image](../../static/img/rr2.png)
 
 </div>
 
   </div>
 </details>
+<!-- </div> -->
 
 export const YoutubeEmbed = () => (
 
   <div style={{width: '100%', height:'100%'}}>
-<iframe width="870" height="400" src="https://www.youtube.com/embed/gys_aEdmBQk?si=sg9f_nQewTH-eEOL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="870" height="400" src="https://www.youtube.com/embed/TB_SzSRwZT4?si=ZVKilcaf4iWR19X6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
 );

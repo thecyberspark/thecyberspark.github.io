@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 title: Training Documentation
 description: This guide will walk you through the essential steps to set up your development environment and get started with the project.
 sidebar_label: Training Documentation

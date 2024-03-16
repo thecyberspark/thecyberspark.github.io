@@ -164,6 +164,6 @@ For each application within the **`apps`** folder, you'll find a dedicated **`-e
 export const YoutubeEmbed = () => (
 
   <div style={{width: '100%', height:'100%'}}>
-<iframe width="870" height="400" src="https://www.youtube.com/embed/3oOhVm7E40Q?si=V4ONRYMiPF1Xfl0N" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="870" height="400" src="https://www.youtube.com/embed/amvcaxs1-EE?si=GExL3MB9aDRmny9C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
 );
